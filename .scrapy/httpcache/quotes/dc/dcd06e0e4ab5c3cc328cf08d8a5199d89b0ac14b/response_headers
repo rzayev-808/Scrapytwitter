@@ -1,0 +1,21 @@
+Cache-Control: no-cache, no-store, must-revalidate, pre-check=0, post-check=0
+Content-Disposition: attachment; filename=json.json
+Content-Encoding: gzip
+Content-Type: application/json;charset=utf-8
+Date: Thu, 21 Feb 2019 12:29:42 GMT
+Expires: Tue, 31 Mar 1981 05:00:00 GMT
+Last-Modified: Thu, 21 Feb 2019 12:29:42 GMT
+Pragma: no-cache
+Server: tsa_o
+Set-Cookie: fm=0; Max-Age=0; Expires=Thu, 21 Feb 2019 12:29:42 GMT; Path=/; Domain=.twitter.com; Secure; HTTPOnly
+Set-Cookie: _twitter_sess=BAh7CSIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo%250ASGFzaHsABjoKQHVzZWR7ADoPY3JlYXRlZF9hdGwrCKFoCBBpAToMY3NyZl9p%250AZCIlYzAxNWUwZGVjZWVlNDQzNjg1OGFmZjI3OGQ0OGRkNmY6B2lkIiU2NDM3%250AM2M3NzkwMzU5Mzc0OWI3NDY4MTU3MDBhNTFhOQ%253D%253D--73ba5864025c53e6c1a7e3957d00a05550509a14; Path=/; Domain=.twitter.com; Secure; HTTPOnly
+Status: 200 OK
+Strict-Transport-Security: max-age=631138519
+X-Connection-Hash: 55fa764c448ff6b4e7abed621243d686
+X-Content-Type-Options: nosniff
+X-Frame-Options: 
+X-Response-Time: 418
+X-Transaction: 00af623d00355bc3
+X-Twitter-Response-Tags: BouncerCompliant
+X-Ua-Compatible: IE=edge,chrome=1
+X-Xss-Protection: 1; mode=block; report=https://twitter.com/i/xss_report

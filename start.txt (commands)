@@ -1,0 +1,35 @@
+virtualenv python3 yarat ("virtualenv virt" di komanda eger yuklenilibse kompa sonra ise "call virt/scripts/activate" edeceksiz )
+
+pip install -r req.txt
+
+#### scrapy start ###
+
+scrapy crawl quotes -a query=@Aze -a crawl_user=True
+
+####################
+query = usernameTwitter hemde eger tag olunubsa postda onlari goturur ( '@' qoymaq shert deyil eger her hasisa soz uzerinde axtarish olsa )
+crawl_user = eyni adda user profil shekil ve s goturur
+@@@@
+elave 
+@@@@
+lang='' ( dil secimi )
+top_tweet = daha cox beyenilen 
+#####################
+
+tutorial/settings.py -- sonda rabbitmq melumatlari goreceksiz onlari deyishin 
+
+############################
+scrapy ozu yeni esas funkciyani yerine yetiren 
+tutorial/spiders/quotes_spider.py yerleshir nezer yetire bilersiz
+
+#########
+items.py - gelen melumati database e yazmagla meshquldu
+#########
+pipelines.py - database temeli hemde polyalarin nezareti falan 
+
+MySql ucun artig yazilib nastroyka sadece eger qoshmag isdesez paralelni rabbitmq ile settings.py da men yazacam ama kommente alacam oz dannilarinizi elave edin i vse (EN SONDA)
+
+$$$$ 
+datadan savayi parsingler data papaqasinda yigilir yeni hem data hem bura eslinde bu duzgun deyil sadece sene aydin olsun deye eledim deyisherik sonra
+
+(items.json, quotes.json, quotes-1.html ve.s melumatlarin goruntu primerleridi yeni hem json hem txt hemde html formada melumat cixarda bilerik . hemcinin xml falanda var mence gerek olmayacag )
