@@ -40,7 +40,7 @@ queuelib==1.5.0
 
 requests==2.21.0
 rules==2.0.1
-Scrapy==1.6.0
+Scrapy==2.6.2
 scrapy-rabbitmq==0.1.2
 scrapy-rabbitmq-publisher==0.1.4
 
